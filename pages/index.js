@@ -9,6 +9,7 @@ const Home = () => (
     <Head>
       <title>Home</title>
     </Head>
+    <img src="/static/minion.jpg" width="250" />
     <h1>Home</h1>
     <Link href="/users">
       <a>Usuários</a>

@@ -11478,23 +11478,31 @@ var Home = function Home() {
       lineNumber: 10
     },
     __self: this
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/minion.jpg",
+    width: "250",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
     },
     __self: this
   }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/users",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, "Usu\xE1rios")));
@@ -11579,7 +11587,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
         _createClass(_class, [{
           key: "componentDidMount",
           value: function componentDidMount() {
-            console.log("PAGE VIEW ");
+            console.log("PAGE VIEW | path", window.location.pathname);
             react_ga__WEBPACK_IMPORTED_MODULE_2___default.a.initialize("ID_ANALYTICS");
             react_ga__WEBPACK_IMPORTED_MODULE_2___default.a.pageview(window.location.pathname); //url
           }
